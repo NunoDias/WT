@@ -1,0 +1,289 @@
+.aqui ::-webkit-scrollbar {
+  width: 15px;
+  height: 3px;
+  background: none;
+}
+
+.hidden {
+  display: none;
+}
+.aqui ::-webkit-scrollbar-thumb {
+  background-color: #4f266a;
+  -webkit-border-radius: 0ex;
+  border-right: 4px white solid;
+  background-clip: padding-box;
+}
+.eachModelo * {
+  display: none;
+}
+
+.finalPick {
+  background: #bfd032;
+  display: block;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.eachModelo .categoria,
+.eachModelo .preco,
+.eachModelo .marca {
+  display: none;
+}
+
+.mainContainer .eachModelo {
+  color: #000;
+  cursor: pointer;
+
+  /* border-bottom: 1px solid #ddd; */
+}
+.aqui {
+  background: #4f266a;
+  padding: 30px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+
+.toppers {
+  text-align: center;
+}
+
+.aqui .toppers .pergunta.main {
+  margin-left: 0;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.aqui .toppers .subtitle {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.toppers p {
+  margin-bottom: 0;
+}
+
+.categoriasEquipamentos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.categoriasEquipamentos div {
+  margin-right: 10px;
+}
+
+.eachModelo .modelo:hover {
+  background: #bfd032;
+}
+
+.modelosAtivos {
+  padding: 5px 10px;
+  border-bottom: 1px solid #ddd;
+  display: block;
+}
+
+.btnsMarcas {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  font-weight: bold;
+}
+
+[id="Apple"] {
+  background-image: url("https://www.worten.pt/i/6cfc99cd920730ba4bd07b382f7ac4ea25e82c22");
+  background-size: 50%;
+}
+
+[id="Samsung"] {
+  background-image: url("https://www.worten.pt/i/f33c2a0b97e8ce044d970f73f2bcc30885eb3ca6");
+}
+
+[id="Xiaomi"] {
+  background-image: url("https://www.worten.pt/i/4da75b4348217a8a269a9096745a39083b4a0c3c");
+  background-size: 80%;
+}
+
+[id="OPPO"] {
+  background-image: url("https://www.worten.pt/i/d312ce0c114a2aa0df88b362b21042715662cefc");
+}
+
+[id="Huawei"] {
+  background-image: url("https://www.worten.pt/i/9e4bfa757a06672a3094de1855e8f35673b12ea7");
+}
+
+[id="Lenovo"] {
+  background-image: url("https://www.worten.pt/i/9f77b86a8daecca7139d50e5ed8f5dbae2d14855");
+}
+
+[id="Sony"] {
+  background-image: url("https://www.worten.pt/i/07c1494ce4e25aad18ba5aa128bc23c213f29e86");
+}
+
+[id="Asus"] {
+  background-image: url("https://www.worten.pt/i/299b8a7732ec609683525dcd145c644389464b5b");
+}
+
+[id="Outros"] {
+  background-image: url("https://www.worten.pt/i/4453890a40c891353ca318824df5ce2986f4592d");
+  order: 2;
+}
+
+#myInput {
+  width: 70%;
+  padding: 10px 0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: none;
+}
+.aqui .pergunta {
+  color: #bfd032;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 15%;
+}
+
+.aqui .w-button-primary {
+  color: #fff;
+  background: #bfd032;
+  text-align: center;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 15px;
+  box-shadow: none;
+}
+
+.aqui .pergunta:first-of-type {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.aqui .btnsCategorias {
+  text-transform: uppercase;
+  border: 1px solid #c1d236;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.containerMarcasRetoma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.containerMarcasRetoma div {
+  text-align: center;
+  cursor: pointer;
+  margin: 5px 0;
+  margin-right: 10px;
+  border: 1px solid #c1d236;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+}
+
+.containerMarcasRetoma div:hover {
+  background-color: #734293;
+}
+
+.notaLegal {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+.mainContainer {
+  height: 250px;
+  overflow: scroll;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  /* padding: 0px 10px; */
+  background: #fff;
+  margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.valorDaRetoma {
+  padding: 20px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .aqui .pergunta {
+    margin-left: 0;
+  }
+
+  .aqui .btnsCategorias {
+    width: 42%;
+    font-size: 14px;
+    margin-right: 0;
+    text-align: center;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 16px;
+  }
+
+  .btnsMarcas {
+    background-size: 50%;
+  }
+
+  .aqui .btnsCategorias:nth-of-type(n + 3) {
+    margin-top: 10px;
+  }
+
+  .containerMarcasRetoma {
+    justify-content: space-between;
+  }
+
+  .containerMarcasRetoma div {
+    width: 42%;
+    margin-right: 0;
+  }
+
+  .aqui .toppers .subtitle {
+    margin-top: 10px;
+    line-height: 17px;
+  }
+
+  .aqui {
+    padding: 20px;
+  }
+
+  .categoriasEquipamentos {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .mainContainer,
+  .valorDaRetoma,
+  .notaLegal {
+    width: 90%;
+  }
+  #myInput {
+    width: 100%;
+  }
+
+  .aqui .toppers .pergunta.main {
+    line-height: 23px;
+  }
+}
